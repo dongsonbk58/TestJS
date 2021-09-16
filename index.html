@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<title>Test8</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>	
+	
+	<body>
+
+		<header class="header">
+			<div id="navi">
+				<div class="navi-header">
+					<button id="menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<div class="navi-header-left">
+						<a href="" id="saveLink"><button id="save">Save</button></a>
+						<button id="reset">Reset</button>
+					</div>
+				</div>
+				
+				<div class="navi-footer">
+					<div id="range">Size: 1<input type="range" id="myRange" value="5" min="1" max="100">100</div>
+					<button id="brush"><img src="images/brush.png"></button>
+				</div>
+			</div>
+
+			<div id="toolbar">
+				<div id="colors">Color: <input type="color" value="#000000" name="myColor" id="myColor"></div>
+				<button id="erase"><img src="images/eraser.png"></button>
+			</div>
+		</header>
+
+		<canvas id="canvas">Your browser does not support canvas. Please upgrade it!</canvas>
+		<script src="script.js"></script>
+	</body>
+	
+</html>
